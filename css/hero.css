@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+
+header {
+  background-color: #00BFFF; /* blue background */
+  padding: 20px; /* Some padding */
+  text-align: center; /* Centered text */
+  font-size: 50px; /* Big font size */
+  font-weight: bold;
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+ol{
+	text-align: left;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Voltaire', sans-serif;
+}
+
+header h1{
+	color: white;
+}
+
+header img{
+	border-radius: 50%;
+	border-width: 10px;
+	border: 20px solid #6495ED;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2, h3, h4{
+	font-size: 35px;
+	color: #8A2BE2;
+}
+
+main a{
+	color: #00BFFF;
+}
+main a:hover{
+	color: #FF00FF
+}
+
+footer{
+	background-color: #00BFFF;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+footer p{
+	margin: 0;
+}
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: #FFD700
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+h2{
+	margin: 40px 0 10px;
+}
